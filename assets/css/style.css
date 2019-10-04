@@ -126,15 +126,16 @@ footer {
         width: 960px;
     }
     .main{
-        width: 960px;
+        width: 900px;
+        margin-left: 50px;
     }
 
     .header{
-        width: 960px;
+        width: 980px;
     }
 
     footer{
-        width: 960px;
+        width: 980px;
     }
 }
 
@@ -149,28 +150,34 @@ footer {
         width: 100%;
     }
 
+    .name{
+        padding: 20px;
+    }
+
     .wrapper{
         width: 400px;
     }
     .main{
-        width: 400px;
-        min-width: 400px;
+        width: 600px;
+        min-width: 600px;
+    }
+
+    #port{
+        height: 775px;
     }
 
     .header{
-        width: 400px;
-        min-width: 400px;
+        width: 768px;
+        min-width: 768px;
     }
 
     footer{
-        width: 400px;
+        width: 768px;
     }
 }
 
 @media screen and (max-width:640px){
     .links{
-        position:relative;
-        left:40%;
         width:300px;
         font-size: 10px;
     }
@@ -179,24 +186,53 @@ footer {
         width: 100%;
     }
 
+    h1{
+        font-size: 26px;
+    }
+
     .wrapper{
         width: 400px;
     }
 
     #port{
-        height: 1200px;
+        height: 1700px;
+    }
+
+    .porttext{
+        width: 94%;
+    }
+
+    .name{
+        padding:20px;
+        float:left;
     }
 
     .main{
-        width: 400px;
+        width: 500px;
+        margin-left:100px;
+    }
+
+    .image {
+        width: 300px;
+        height: 300px;
+        padding:10px;
+    }
+
+    p{
+        clear:both;
+        font-size: 12px;
+    }
+
+    form{
+        font-size:12px;
     }
 
     .header{
         width: 400px;
-        min-width: 500px;
+        min-width: 640px;
     }
 
     footer{
-        width: 600px;
+        width: 640px;
     }
 }
