@@ -12,6 +12,7 @@ body{
 
 h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 36px;
 }
 
 .main {
@@ -114,4 +115,85 @@ footer {
 
 #port{
     height:550px;
+}
+
+@media screen and (max-width:980px){
+    body{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 960px;
+    }
+    .main{
+        width: 960px;
+    }
+
+    .header{
+        width: 960px;
+    }
+
+    footer{
+        width: 960px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .links{
+        position:relative;
+        left:40%;
+        width:300px;
+    }
+    body{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 500px;
+    }
+    .main{
+        width: 500px;
+        min-width: 400px;
+    }
+
+    .header{
+        width: 500px;
+    }
+
+    footer{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:640px){
+    .links{
+        position:relative;
+        left:40%;
+        width:300px;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    .wrapper{
+        width: 400px;
+    }
+
+    #port{
+        height: 1200px;
+    }
+
+    .main{
+        width: 400px;
+    }
+
+    .header{
+        width: 400px;
+        min-width: width 300px;
+    }
+
+    footer{
+        width: 600px;
+    }
 }
