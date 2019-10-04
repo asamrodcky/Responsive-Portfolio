@@ -143,25 +143,27 @@ footer {
         position:relative;
         left:40%;
         width:300px;
+        margin-left: 130px;
     }
     body{
         width: 100%;
     }
 
     .wrapper{
-        width: 500px;
+        width: 400px;
     }
     .main{
-        width: 500px;
+        width: 400px;
         min-width: 400px;
     }
 
     .header{
-        width: 500px;
+        width: 400px;
+        min-width: 400px;
     }
 
     footer{
-        width: 500px;
+        width: 400px;
     }
 }
 
@@ -170,6 +172,7 @@ footer {
         position:relative;
         left:40%;
         width:300px;
+        font-size: 10px;
     }
 
     body{
@@ -190,7 +193,7 @@ footer {
 
     .header{
         width: 400px;
-        min-width: width 300px;
+        min-width: 500px;
     }
 
     footer{
