@@ -158,8 +158,8 @@ footer {
         width: 400px;
     }
     .main{
-        width: 600px;
-        min-width: 600px;
+        width: 400px;
+        min-width: 400px;
     }
 
     #port{
@@ -178,12 +178,13 @@ footer {
 
 @media screen and (max-width:640px){
     .links{
-        width:300px;
         font-size: 10px;
+        width:200px;
+        left:40%;
     }
 
     body{
-        width: 100%;
+        width: 400px;
     }
 
     h1{
@@ -208,8 +209,9 @@ footer {
     }
 
     .main{
-        width: 500px;
+        width: 400px;
         margin-left:100px;
+        min-width:500px;
     }
 
     .image {
@@ -228,8 +230,8 @@ footer {
     }
 
     .header{
-        width: 400px;
-        min-width: 640px;
+        width: 640px;
+        min-width:640px;
     }
 
     footer{
