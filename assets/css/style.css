@@ -117,6 +117,11 @@ footer {
     height:550px;
 }
 
+.portcontact{
+    position: fixed;
+    bottom:0;
+}
+
 @media screen and (max-width:980px){
     body{
         width: 100%;
@@ -158,8 +163,8 @@ footer {
         width: 400px;
     }
     .main{
-        width: 400px;
-        min-width: 400px;
+        width: 650px;
+        min-width: 650px;
     }
 
     #port{
